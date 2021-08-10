@@ -1,3 +1,3 @@
-# Curriculum_PWM_U
-Mi primera pagina web que muestra mi curriculum.
-Figma: https://www.figma.com/file/fbAi4Tk8Hz1MqJIwb4RqNs/Curriculum
+# Portafolio_Cuerso_PWM
+Este repositorio sera utilizado para guardar mis proyectos de la materia Programacion Web Movil.
+Pag Neocities: cardonacr15.neocities.org
