@@ -2,3 +2,387 @@
   padding: 0;
   margin: 0;
 }
+
+.contenedorGeneral {
+  position: relative;
+  width: 816px;
+  height: 1054px;
+  background: #ffffff;
+}
+
+.contenedorIzquierdo {
+  position: absolute;
+  width: 340px;
+  height: 1054px;
+  left: 0px;
+  top: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.separador {
+  position: absolute;
+  width: 340px;
+  height: 3px;
+  left: 0px;
+  top: 695px;
+  background: #6cd0db;
+}
+
+.foto {
+  position: absolute;
+  width: 192px;
+  height: 191px;
+  left: 68px;
+  top: 68px;
+}
+
+.contacto {
+  position: absolute;
+  width: 204px;
+  height: 68px;
+  left: 68px;
+  top: 272px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.direccionContacto {
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  left: 68px;
+  top: 340px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #6cd0db;
+}
+
+.infoDireccionContacto {
+  position: absolute;
+  width: 250px;
+  height: 44px;
+  left: 68px;
+  top: 370px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #d0d0d0;
+}
+
+.celularContacto {
+  position: absolute;
+  width: 112px;
+  height: 20px;
+  left: 68px;
+  top: 439px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #6cd0db;
+}
+
+.infoCelularContacto {
+  position: absolute;
+  width: 72px;
+  height: 22px;
+  left: 68px;
+  top: 469px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #d0d0d0;
+}
+
+.emailContacto {
+  position: absolute;
+  width: 73px;
+  height: 20px;
+  left: 68px;
+  top: 516px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #6cd0db;
+}
+
+.infoEmailContacto {
+  position: absolute;
+  width: 192px;
+  height: 22px;
+  left: 68px;
+  top: 546px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: lowercase;
+  color: #d0d0d0;
+}
+
+.nacionalidadContacto {
+  position: absolute;
+  width: 132px;
+  height: 20px;
+  left: 68px;
+  top: 593px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #6cd0db;
+}
+
+.infoNacionalidadContacto {
+  position: absolute;
+  width: 104px;
+  height: 22px;
+  left: 68px;
+  top: 623px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #d0d0d0;
+}
+
+.perfilContacto {
+  position: absolute;
+  width: 204px;
+  height: 68px;
+  left: 68px;
+  top: 742px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.infoPerfilContacto {
+  position: absolute;
+  width: 204px;
+  height: 154px;
+  left: 68px;
+  top: 810px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #d0d0d0;
+}
+
+.nombrePrincipal {
+  position: absolute;
+  width: 370px;
+  height: 152px;
+  left: 408px;
+  top: 110px;
+}
+
+.nombre {
+  position: absolute;
+  width: 370px;
+  height: 117px;
+  left: 408px;
+  top: 110px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #6cd0db;
+}
+
+.tecnica {
+  position: absolute;
+  width: 144px;
+  height: 34.9px;
+  left: 410px;
+  top: 227.1px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+
+.contenedorDerecho {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 315px;
+  height: 474px;
+  left: 408px;
+  top: 350px;
+}
+
+.experiencia {
+  position: static;
+  width: 247px;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+
+.tituloExperiencia {
+  position: absolute;
+  width: 247px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #6cd0db;
+}
+
+.infoExperiencia {
+  position: absolute;
+  width: 188px;
+  height: 32px;
+  left: 0px;
+  top: 52px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3c3c3c;
+}
+
+.educacion {
+  position: static;
+  width: 261px;
+  height: 120px;
+  left: 0px;
+  top: 132px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+
+.tituloEducacion {
+  position: absolute;
+  width: 223px;
+  height: 39px;
+  left: 0px;
+  top: 132px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #6cd0db;
+}
+
+.infoEducacion {
+  position: absolute;
+  width: 261px;
+  height: 64px;
+  left: 0px;
+  top: 188px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #3c3c3c;
+}
+
+.referencias {
+  position: static;
+  width: 315px;
+  height: 174px;
+  left: 0px;
+  top: 300px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+
+.tituloReferencias {
+  position: absolute;
+  width: 256px;
+  height: 39px;
+  left: 0px;
+  top: 300px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #6cd0db;
+}
+
+.infoReferencias {
+  position: absolute;
+  width: 315px;
+  height: 128px;
+  left: 0px;
+  top: 346px;
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3c3c3c;
+}
