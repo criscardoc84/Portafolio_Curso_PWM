@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +11,8 @@
   width: 816px;
   height: 1054px;
   background: #ffffff;
+  margin: 25px;
+  border-radius: 15px;
 }
 
 .contenedorIzquierdo {
@@ -17,6 +22,15 @@
   left: 0px;
   top: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fondoIzquierda {
+  position: absolute;
+  width: 340px;
+  height: 1054px;
+  left: 0px;
+  top: 0px;
+  background: #3c3c3c;
 }
 
 .separador {
@@ -36,13 +50,21 @@
   top: 68px;
 }
 
+.documentoFoto {
+  position: absolute;
+  width: 192px;
+  height: 191px;
+  left: 68px;
+  top: 68px;
+}
+
 .contacto {
   position: absolute;
   width: 204px;
   height: 68px;
   left: 68px;
   top: 272px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -59,7 +81,7 @@
   height: 20px;
   left: 68px;
   top: 340px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -74,7 +96,7 @@
   height: 44px;
   left: 68px;
   top: 370px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -89,7 +111,7 @@
   height: 20px;
   left: 68px;
   top: 439px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -104,7 +126,7 @@
   height: 22px;
   left: 68px;
   top: 469px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -119,7 +141,7 @@
   height: 20px;
   left: 68px;
   top: 516px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -134,7 +156,7 @@
   height: 22px;
   left: 68px;
   top: 546px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -149,7 +171,7 @@
   height: 20px;
   left: 68px;
   top: 593px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -164,7 +186,7 @@
   height: 22px;
   left: 68px;
   top: 623px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -178,7 +200,7 @@
   height: 68px;
   left: 68px;
   top: 742px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -195,7 +217,7 @@
   height: 154px;
   left: 68px;
   top: 810px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -217,7 +239,7 @@
   height: 117px;
   left: 408px;
   top: 110px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
@@ -234,7 +256,7 @@
   height: 34.9px;
   left: 410px;
   top: 227.1px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -275,7 +297,7 @@
   height: 39px;
   left: 0px;
   top: 0px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -292,7 +314,7 @@
   height: 32px;
   left: 0px;
   top: 52px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -318,7 +340,7 @@
   height: 39px;
   left: 0px;
   top: 132px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -335,7 +357,7 @@
   height: 64px;
   left: 0px;
   top: 188px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -362,7 +384,7 @@
   height: 39px;
   left: 0px;
   top: 300px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -379,7 +401,7 @@
   height: 128px;
   left: 0px;
   top: 346px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

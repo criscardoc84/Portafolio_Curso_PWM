@@ -4,45 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Este sitio muestra mi hoja de vida." />
+    <meta name="description" content="Este sitio muestra curriculum." />
     <meta name="author" content="Cristian Cardona C" />
-    <meta name="keywords" content="hoja de vida, universidad" />
+    <meta name="keywords" content="Curriculum, universidad" />
+    <link rel="stylesheet" href="estilos/style1.css" />
     <title>Curriculum - Cristian Cardona C.</title>
   </head>
-  <body>
-    <nav>
-      <h2>CONTACTO</h2>
-      <h3>DIRECCIÓN</h3>
-      <p>Cra 24 EE #39 A Sur-76</p>
-      <p>Envigado, Antioquia</p>
-      <h3>NO.CELULAR</h3>
-      <p>3127038792</p>
-      <h3>CORREO</h3>
-      <p>cristian.cardoc84@gmail.com</p>
-      <h3>NACIONALIDAD</h3>
-      <p>COLOMBIANO</p>
-      <hr />
-      <h4>PERFIL</h4>
-      <p>
+  <body class="contenedorGeneral">
+    <div class="fondoIzquierda">
+    <section class="contenedorIzquierdo"></section>
+      <article>
+        <img
+          class="documentoFoto"
+          src="imgs/docuemnto.jpg"
+          alt="Cristian Cardona Foto"
+        />
+      </article>
+      <h2 class="contacto">CONTACTO</h2>
+      <h3 class="direccionContacto">DIRECCIÓN</h3>
+      <ul class="infoDireccionContacto">
+        <p>Cra 24 EE #39 A Sur-76</p>
+        <p>Envigado, Antioquia</p>
+      </ul>
+      <h3 class="celularContacto">NO.CELULAR</h3>
+      <ul class="infoCelularContacto">
+        <p>3127038792</p>
+      </ul>
+      <h3 class="emailContacto">CORREO</h3>
+      <ul class="infoEmailContacto">
+        <p>cristian.cardoc84@gmail.com</p>
+      </ul>
+      <h3 class="nacionalidadContacto">NACIONALIDAD</h3>
+      <ul class="infoNacionalidadContacto">
+        <p>COLOMBIANO</p>
+      </ul>
+      <hr class="separador" />
+      <h2 class="perfilContacto">PERFIL</h2>
+      <p class="infoPerfilContacto">
         Hola, soy de Envigado, Antioquia, Colombia. Ingeniero de sistemas en
         formacion con muchos animos de obtener los conocimientos necesarios para
         desenvolverme en el area laboral.
       </p>
-    </nav>
-    <aside>
-      <h1>CRISTIAN CARDONA CASTAÑO</h1>
-      <p>TENICO EN COCINA</p>
-      <h2>EDUCACIÓN</h2>
-      <ul>
-        <li><p>2013-2018/Bachillerato,I.E El Salado</p></li>
-        <li><p>2017-2018/Tecnico en Cocina,Cefit</p></li>
-      </ul>
-      <h2>EXPERIENCIA</h2>
-      <ul>
-        <li><p>2019/Mesero en Restaurante</p></li>
-      </ul>
-      <h2>REFERENCIAS</h2>
-      <ul>
+    </section>
+    </div>
+    <div>
+      <h2 class="nombre" >CRISTIAN CARDONA C</h2>
+      <p class="tecnica">TENICO EN COCINA</p>
+    </div>
+    <section class="contenedorDerecho">
+      <article class="educacion">
+        <h2 class="tituloEducacion">EDUCACIÓN</h2>
+      <ul class="infoEducacion">
+        <p>2013-2018/Bachillerato,I.E El Salado</p>
+        <p>2017-2018/Tecnico en Cocina,Cefit</p>
+      </ul></article>
+      <article class="experiencia">
+        <h2 class="tituloExperiencia">EXPERIENCIA</h2>
+      <ul class="infoExperiencia">
+        <p>2019/Mesero en Restaurante</p>
+      </ul></article>
+      <article class="referencias">
+        <h2 class="tituloReferencias">REFERENCIAS</h2>
+      <ul class="infoReferencias">
         <li>
           <p>Luz Angela Castaño Rios, Auxiliar administrativa</p>
           <p>3206110789/angela-832@hotmail.com</p>
@@ -51,7 +74,7 @@
           <p>Carlos Alberto Castaño Rios, Conductor</p>
           <p>3137166520/rjrios78@gmail.com</p>
         </li>
-      </ul>
-    </aside>
+      </ul></article>
+    </section>
   </body>
 </html>
