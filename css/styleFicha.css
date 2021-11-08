@@ -1,30 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+
+:root{
+  --redondeo: 1.5rem;
+}
+
 * {
   padding: 0;
   margin: 0;
+  font-family: "Caveat", cursive;
 }
 
 .ficha {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "encabezado-ficha"
     "actividades-ficha"
     "estados-ficha";
+  width: 500px;
+  background-color: #fc0000;
 }
 
 .encabezado-ficha {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "nombre-estudiante nombre-estudiante fotografia"
     "enlaces enlaces fotografia";
   grid-area: encabezado-ficha;
+  background-color: #0452fc;
+  border-radius: var(--redondeo);
 }
 
 .nombre-estudiante {
@@ -33,16 +44,28 @@
 
 .enlaces {
   grid-area: enlaces;
+  background-color: #51ff00;
+  border-radius: var(--redondeo);
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
 }
 
 .fotografia {
   grid-area: fotografia;
 }
 
+img{
+  width: 100%;
+  border-radius: 5rem;
+}
+
 .actividades-ficha {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -50,6 +73,8 @@
     "encabezado-actividades"
     "estado-actividades";
   grid-area: actividades-ficha;
+  background-color: #4c00ff;
+  border-radius: var(--redondeo);
 }
 
 .titulo-actividades {
@@ -59,7 +84,7 @@
 .encabezado-actividades {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "item nombre estadouiux estadodev";
@@ -85,7 +110,7 @@
 .estado-actividades {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "nro enlace porcentajeuiux porcentajedev";
@@ -111,11 +136,13 @@
 .estados-ficha {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "estadohtml estadocss estadojs estadoui estadoux total";
   grid-area: estados-ficha;
+  background-color: #00fff2;
+  border-radius: var(--redondeo);
 }
 
 .estadohtml {
