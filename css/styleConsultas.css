@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
+
+*{
+  padding: 0.2px;
+  margin: 0.5px;
+}
+
+h1,h2,h3{
+  font-family: 'Comic Neue', cursive;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+}
+
+.consultas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "titulo"
+    "git"
+    "protocolos"
+    "dom";
+    background: linear-gradient(95deg, #B0674A, #F08C65, #D67D5A);
+}
+
+.titulo { grid-area: titulo;
+  text-align: center;
+}
+
+.git {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "subt1"
+    "art1";
+  grid-area: git;
+  border: 2px solid #3629F0;
+}
+
+.subt1 { grid-area: subt1;
+  text-align: center;
+}
+
+.art1 { grid-area: art1; }
+
+.protocolos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "subt2"
+    "art2";
+  grid-area: protocolos;
+  border: 2px solid #3629F0;
+}
+
+.subt2 { grid-area: subt2;
+  text-align: center;
+}
+
+.art2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "prot1 prot2"
+    "prot3 prot4"
+    "prot5 prot6";
+  grid-area: art2;
+}
+
+.prot1 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp1 inf1";
+  grid-area: prot1;
+}
+
+.tp1 { grid-area: tp1; }
+
+.inf1 { grid-area: inf1; }
+
+.prot2 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp2 inf2";
+  grid-area: prot2;
+}
+
+.tp2 { grid-area: tp2; }
+
+.inf2 { grid-area: inf2; }
+
+.prot3 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp3 inf3";
+  grid-area: prot3;
+}
+
+.tp3 { grid-area: tp3; }
+
+.inf3 { grid-area: inf3; }
+
+.prot4 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp4 inf4";
+  grid-area: prot4;
+}
+
+.tp4 { grid-area: tp4; }
+
+.inf4 { grid-area: inf4; }
+
+.prot5 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp5 inf5";
+  grid-area: prot5;
+}
+
+.tp5 { grid-area: tp5; }
+
+.inf5 { grid-area: inf5; }
+
+.prot6 {
+  display: grid;
+  grid-template-columns: auto 1.6fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tp6 inf6";
+  grid-area: prot6;
+}
+
+.tp6 { grid-area: tp6; }
+
+.inf6 { grid-area: inf6; }
+
+.dom {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "subt3"
+    "art3";
+  grid-area: dom;
+  border: 2px solid #3629F0;
+}
+
+.subt3 { grid-area: subt3;
+  text-align: center;
+}
+
+.art3 { grid-area: art3; }
